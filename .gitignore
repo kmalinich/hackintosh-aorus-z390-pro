@@ -1,0 +1,9 @@
+*.swo
+*.swp
+
+._*
+.DS_Store
+
+/config.plist
+/config.bak.*.plist
+/*.efi

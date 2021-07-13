@@ -1,0 +1,11 @@
+AppleALC.kext
+CPUFriend.kext
+IntelMausi.kext
+Lilu.kext
+NVMeFix.kext
+SMCProcessor.kext
+SMCSuperIO.kext
+SidecarFixup.kext
+USBWakeFixup.kext
+VirtualSMC.kext
+WhateverGreen.kext

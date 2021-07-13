@@ -1,0 +1,14 @@
+AudioDxe.efi
+CrScreenshotDxe.efi
+HiiDatabase.efi
+NvmExpressDxe.efi
+OpenCanopy.efi
+OpenHfsPlus.efi
+OpenPartitionDxe.efi
+OpenRuntime.efi
+OpenUsbKbDxe.efi
+Ps2KeyboardDxe.efi
+Ps2MouseDxe.efi
+UsbMouseDxe.efi
+XhciDxe.efi
+drivers.txt
