@@ -599,13 +599,13 @@
 					<key>MaxKernel</key>
 					<string></string>
 					<key>Comment</key>
-					<string>Add Sidecar support to unsupported models</string>
+					<string>Add Sidecar, NightShift, AirPlay to Mac and Universal Control support to unsupported models</string>
 					<key>BundlePath</key>
-					<string>SidecarFixup.kext</string>
+					<string>FeatureUnlock.kext</string>
 					<key>PlistPath</key>
 					<string>Contents/Info.plist</string>
 					<key>ExecutablePath</key>
-					<string>Contents/MacOS/SidecarFixup</string>
+					<string>Contents/MacOS/FeatureUnlock</string>
 				</dict>
 				<dict>
 					<key>Arch</key>
