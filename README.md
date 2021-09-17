@@ -10,15 +10,16 @@ make sure you replace `MLB`, `SystemSerialNumber`, and `SystemUUID` in
 
 ## Hardware
 
-* OpenCore 0.7.1
 * Gigabyte Aorus Z390 Pro
 * i7-9700K
 * AMD RX480 4GB
-* 2x16GB Corsair Vengance CMK32GX4M2B3200C16 DDR4 @ 3200MHz (XMP)
+* 4x8GB Corsair Vengance RGB PRO CMW16GX4M2C3200C16 DDR4 @ 3200MHz (XMP)
 * 1TB Samsung 970 EVO Plus M.2
 * 1TB Samsung 860 EVO 1TB (SATA) for Time Machine backup
 * Corsair H150i AIO
 * USB Bluetooth 4.0 dongle
+* OpenCore 0.7.3
+* macOS Big Sur 11.6
 
 ## Working
 
