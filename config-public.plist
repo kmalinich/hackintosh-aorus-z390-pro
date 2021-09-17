@@ -599,13 +599,13 @@
 					<key>MaxKernel</key>
 					<string></string>
 					<key>Comment</key>
-					<string>Add Sidecar support to unsupported models</string>
+					<string>Add Sidecar, NightShift, AirPlay to Mac and Universal Control support to unsupported models</string>
 					<key>BundlePath</key>
-					<string>SidecarFixup.kext</string>
+					<string>FeatureUnlock.kext</string>
 					<key>PlistPath</key>
 					<string>Contents/Info.plist</string>
 					<key>ExecutablePath</key>
-					<string>Contents/MacOS/SidecarFixup</string>
+					<string>Contents/MacOS/FeatureUnlock</string>
 				</dict>
 				<dict>
 					<key>Arch</key>
@@ -755,6 +755,26 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
+					<string>OpenShell</string>
+					<key>Name</key>
+					<string>OpenShell</string>
+					<key>Enabled</key>
+					<true/>
+					<key>Flavour</key>
+					<string>Auto</string>
+					<key>Arguments</key>
+					<string></string>
+					<key>Path</key>
+					<string>OpenShell.efi</string>
+					<key>Auxiliary</key>
+					<true/>
+					<key>RealPath</key>
+					<false/>
+					<key>TextMode</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Comment</key>
 					<string>ResetSystem</string>
 					<key>Name</key>
 					<string>ResetSystem</string>
@@ -794,7 +814,7 @@
 				<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 				<dict>
 					<key>boot-args</key>
-					<string>-v vm_compressor=2 keepsyms=1 debug=0x100 shikigva=80</string>
+					<string>-v keepsyms=1 debug=0x100 shikigva=80</string>
 					<key>csr-active-config</key>
 					<data>AwAAAA==</data>
 					<key>run-efi-updater</key>
@@ -901,6 +921,8 @@
 				<integer>0</integer>
 				<key>KeySubsequentDelay</key>
 				<integer>5</integer>
+				<key>GraphicsInputMirroring</key>
+				<true/>
 				<key>PointerSpeedDiv</key>
 				<integer>1</integer>
 				<key>PointerSpeedMul</key>
@@ -931,9 +953,30 @@
 			<true/>
 			<key>Drivers</key>
 			<array>
-				<string>OpenHfsPlus.efi</string>
-				<string>OpenRuntime.efi</string>
-				<string>OpenCanopy.efi</string>
+				<dict>
+					<key>Path</key>
+					<string>OpenHfsPlus.efi</string>
+					<key>Enabled</key>
+					<true/>
+					<key>Arguments</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Path</key>
+					<string>OpenRuntime.efi</string>
+					<key>Enabled</key>
+					<true/>
+					<key>Arguments</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Path</key>
+					<string>OpenCanopy.efi</string>
+					<key>Enabled</key>
+					<true/>
+					<key>Arguments</key>
+					<string></string>
+				</dict>
 			</array>
 			<key>Input</key>
 			<dict>
@@ -1032,6 +1075,8 @@
 				<true/>
 				<key>ExitBootServicesDelay</key>
 				<integer>0</integer>
+				<key>ForceOcWriteFlash</key>
+				<false/>
 				<key>ForgeUefiSupport</key>
 				<false/>
 				<key>IgnoreInvalidFlexRatio</key>
