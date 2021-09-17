@@ -755,6 +755,26 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
+					<string>OpenShell</string>
+					<key>Name</key>
+					<string>OpenShell</string>
+					<key>Enabled</key>
+					<true/>
+					<key>Flavour</key>
+					<string>Auto</string>
+					<key>Arguments</key>
+					<string></string>
+					<key>Path</key>
+					<string>OpenShell.efi</string>
+					<key>Auxiliary</key>
+					<true/>
+					<key>RealPath</key>
+					<false/>
+					<key>TextMode</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Comment</key>
 					<string>ResetSystem</string>
 					<key>Name</key>
 					<string>ResetSystem</string>
@@ -794,7 +814,7 @@
 				<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 				<dict>
 					<key>boot-args</key>
-					<string>-v vm_compressor=2 keepsyms=1 debug=0x100 shikigva=80</string>
+					<string>-v keepsyms=1 debug=0x100 shikigva=80</string>
 					<key>csr-active-config</key>
 					<data>AwAAAA==</data>
 					<key>run-efi-updater</key>
