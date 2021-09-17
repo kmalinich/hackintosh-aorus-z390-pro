@@ -901,6 +901,8 @@
 				<integer>0</integer>
 				<key>KeySubsequentDelay</key>
 				<integer>5</integer>
+				<key>GraphicsInputMirroring</key>
+				<true/>
 				<key>PointerSpeedDiv</key>
 				<integer>1</integer>
 				<key>PointerSpeedMul</key>
@@ -931,9 +933,30 @@
 			<true/>
 			<key>Drivers</key>
 			<array>
-				<string>OpenHfsPlus.efi</string>
-				<string>OpenRuntime.efi</string>
-				<string>OpenCanopy.efi</string>
+				<dict>
+					<key>Path</key>
+					<string>OpenHfsPlus.efi</string>
+					<key>Enabled</key>
+					<true/>
+					<key>Arguments</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Path</key>
+					<string>OpenRuntime.efi</string>
+					<key>Enabled</key>
+					<true/>
+					<key>Arguments</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>Path</key>
+					<string>OpenCanopy.efi</string>
+					<key>Enabled</key>
+					<true/>
+					<key>Arguments</key>
+					<string></string>
+				</dict>
 			</array>
 			<key>Input</key>
 			<dict>
@@ -1032,6 +1055,8 @@
 				<true/>
 				<key>ExitBootServicesDelay</key>
 				<integer>0</integer>
+				<key>ForceOcWriteFlash</key>
+				<false/>
 				<key>ForgeUefiSupport</key>
 				<false/>
 				<key>IgnoreInvalidFlexRatio</key>
