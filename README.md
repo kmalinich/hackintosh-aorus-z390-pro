@@ -12,7 +12,7 @@ make sure you replace `MLB`, `SystemSerialNumber`, and `SystemUUID` in
 
 * Gigabyte Aorus Z390 Pro
 * i7-9700K
-* AMD RX480 4GB
+* AMD RX580 4GB
 * 4x8GB Corsair Vengance RGB PRO CMW16GX4M2C3200C16 DDR4 @ 3200MHz (XMP)
 * 1TB Samsung 970 EVO Plus M.2
 * 1TB Samsung 860 EVO 1TB (SATA) for Time Machine backup
