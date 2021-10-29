@@ -1,4 +1,5 @@
 AppleALC.kext
+BlueToolFixup.kext
 CPUFriend.kext
 FeatureUnlock.kext
 IntelMausi.kext
