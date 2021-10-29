@@ -609,7 +609,7 @@
 					<key>Arch</key>
 					<string>x86_64</string>
 					<key>Enabled</key>
-					<false/>
+					<true/>
 					<key>MinKernel</key>
 					<string></string>
 					<key>MaxKernel</key>
