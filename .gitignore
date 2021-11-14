@@ -4,6 +4,8 @@
 ._*
 .DS_Store
 
+/.contentFlavour
+
 /config.plist
 /config.bak.*.plist
 /*.efi

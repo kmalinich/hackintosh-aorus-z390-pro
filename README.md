@@ -21,8 +21,8 @@ make sure you replace `MLB`, `SystemSerialNumber`, and `SystemUUID` in
 
 ## Software
 
-* OpenCore 0.7.3
-* macOS Monterey 12.0.1
+* OpenCore 0.7.5
+* macOS Monterey 12.0.1 (21A559)
 
 ## Working
 
