@@ -1,1 +1,4 @@
-/*.kext/Contents/MacOS/*
+/*.bak
+
+/*.kext/Contents/MacOS
+/*.kext/Contents/Resources

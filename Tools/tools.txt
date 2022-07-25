@@ -1,5 +1,5 @@
 amdvbflash.efi
-arch-linux-20191021.efi
+arch-linux-20211211.efi
 BootKicker.efi
 ChipTune.efi
 CleanNvram.efi

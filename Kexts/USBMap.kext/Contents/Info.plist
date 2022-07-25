@@ -15,15 +15,20 @@
 		<key>CFBundlePackageType</key>
 		<string>KEXT</string>
 		<key>CFBundleShortVersionString</key>
-		<string>1.0</string>
+		<string>1.0.0</string>
 		<key>CFBundleSignature</key>
 		<string>????</string>
 		<key>CFBundleVersion</key>
-		<string>1.0</string>
+		<string>1.0.0</string>
 		<key>IOKitPersonalities</key>
+
 		<dict>
 			<key>iMac19,1-XHC</key>
+
 			<dict>
+				<key>model</key>
+				<string>iMac19,1</string>
+
 				<key>CFBundleIdentifier</key>
 				<string>com.apple.driver.AppleUSBMergeNub</string>
 				<key>IOClass</key>
@@ -32,62 +37,26 @@
 				<string>IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/XHC@14/XHC@14000000</string>
 				<key>IOProviderClass</key>
 				<string>AppleUSBXHCIPCI</string>
+
 				<key>IOProviderMergeProperties</key>
 				<dict>
 					<key>kUSBMuxEnabled</key>
 					<true/>
+
 					<key>port-count</key>
 					<data>GgAAAA==</data>
+
 					<key>ports</key>
 					<dict>
-						<key>HS06</key>
+						<key>HS01</key>
 						<dict>
 							<key>Comment</key>
-							<string>Rear middle left USB-C 3.2 (HS)</string>
+							<string>Front USB-C 3.2 (HS)</string>
 							<key>UsbConnector</key>
-							<integer>9</integer>
+							<integer>10</integer>
 							<key>port</key>
-							<data>BgAAAA==</data>
+							<data>AQAAAA==</data>
 						</dict>
-						<key>HS07</key>
-						<dict>
-							<key>Comment</key>
-							<string>Rear bottom left USB-A 3.0 (HS)</string>
-							<key>UsbConnector</key>
-							<integer>3</integer>
-							<key>port</key>
-							<data>BwAAAA==</data>
-						</dict>
-						<key>HS08</key>
-						<dict>
-							<key>Comment</key>
-							<string>Rear bottom right USB-A 3.0 (HS)</string>
-							<key>UsbConnector</key>
-							<integer>3</integer>
-							<key>port</key>
-							<data>CAAAAA==</data>
-						</dict>
-
-						<key>HS11</key>
-						<dict>
-							<key>Comment</key>
-							<string>Front USB-A 2.0 (HS)</string>
-							<key>UsbConnector</key>
-							<integer>0</integer>
-							<key>port</key>
-							<data>CwAAAA==</data>
-						</dict>
-
-						<key>HS13</key>
-						<dict>
-							<key>Comment</key>
-							<string>Rear USB-A 2.0 (HS)</string>
-							<key>UsbConnector</key>
-							<integer>0</integer>
-							<key>port</key>
-							<data>DQAAAA==</data>
-						</dict>
-
 						<key>SS01</key>
 						<dict>
 							<key>Comment</key>
@@ -106,10 +75,34 @@
 							<key>port</key>
 							<data>EgAAAA==</data>
 						</dict>
+
+
+
+						<key>HS11</key>
+						<dict>
+							<key>Comment</key>
+							<string>Motherboard left USB 2.0 header (HS)</string>
+							<key>UsbConnector</key>
+							<integer>0</integer>
+							<key>port</key>
+							<data>CwAAAA==</data>
+						</dict>
+
+						<key>HS13</key>
+						<dict>
+							<key>Comment</key>
+							<string>Rear USB-A 2.0 (HS)</string>
+							<key>UsbConnector</key>
+							<integer>0</integer>
+							<key>port</key>
+							<data>DQAAAA==</data>
+						</dict>
+
+
 						<key>SS03</key>
 						<dict>
 							<key>Comment</key>
-							<string>Rear top left USB-A 3.1 (SS)</string>
+							<string>Rear upper left USB-A 3.1 (SS)</string>
 							<key>UsbConnector</key>
 							<integer>3</integer>
 							<key>port</key>
@@ -118,61 +111,85 @@
 						<key>SS04</key>
 						<dict>
 							<key>Comment</key>
-							<string>Rear top right USB-A 3.0 (SS)</string>
+							<string>Rear upper right USB-A 3.0 (SS)</string>
 							<key>UsbConnector</key>
 							<integer>3</integer>
 							<key>port</key>
 							<data>FAAAAA==</data>
 						</dict>
-						<key>SS05</key>
+
+
+						<key>HS07</key>
 						<dict>
 							<key>Comment</key>
-							<string>Rear middle right USB 3.1 (SS)</string>
+							<string>Rear lower left USB-A 3.0 (HS)</string>
 							<key>UsbConnector</key>
 							<integer>3</integer>
 							<key>port</key>
-							<data>FQAAAA==</data>
-						</dict>
-						<key>SS06</key>
-						<dict>
-							<key>Comment</key>
-							<string>Rear middle left USB-C 3.2 (SS)</string>
-							<key>UsbConnector</key>
-							<integer>9</integer>
-							<key>port</key>
-							<data>FgAAAA==</data>
+							<data>BwAAAA==</data>
 						</dict>
 						<key>SS07</key>
 						<dict>
 							<key>Comment</key>
-							<string>Rear bottom left USB-A 3.0 (SS)</string>
+							<string>Rear lower left USB-A 3.0 (SS)</string>
 							<key>UsbConnector</key>
 							<integer>3</integer>
 							<key>port</key>
 							<data>FwAAAA==</data>
 						</dict>
+
+						<key>HS08</key>
+						<dict>
+							<key>Comment</key>
+							<string>Rear lower right USB-A 3.0 (HS)</string>
+							<key>UsbConnector</key>
+							<integer>3</integer>
+							<key>port</key>
+							<data>CAAAAA==</data>
+						</dict>
 						<key>SS08</key>
 						<dict>
 							<key>Comment</key>
-							<string>Rear bottom right USB-A 3.0 (SS)</string>
+							<string>Rear lower right USB-A 3.0 (SS)</string>
 							<key>UsbConnector</key>
 							<integer>3</integer>
 							<key>port</key>
 							<data>GAAAAA==</data>
 						</dict>
+
+
+						<key>HS09</key>
+						<dict>
+							<key>Comment</key>
+							<string>Front upper USB-A 3.0 (HS)</string>
+							<key>UsbConnector</key>
+							<integer>3</integer>
+							<key>port</key>
+							<data>CQAAAA==</data>
+						</dict>
 						<key>SS09</key>
 						<dict>
 							<key>Comment</key>
-							<string>Front left USB-A 3.0 (SS)</string>
+							<string>Front upper USB-A 3.0 (SS)</string>
 							<key>UsbConnector</key>
 							<integer>3</integer>
 							<key>port</key>
 							<data>GQAAAA==</data>
 						</dict>
+
+						<key>HS10</key>
+						<dict>
+							<key>Comment</key>
+							<string>Front lower USB-A 3.0 (HS)</string>
+							<key>UsbConnector</key>
+							<integer>3</integer>
+							<key>port</key>
+							<data>CgAAAA==</data>
+						</dict>
 						<key>SS10</key>
 						<dict>
 							<key>Comment</key>
-							<string>Front right USB-A 3.0 (SS)</string>
+							<string>Front lower USB-A 3.0 (SS)</string>
 							<key>UsbConnector</key>
 							<integer>3</integer>
 							<key>port</key>
@@ -180,10 +197,9 @@
 						</dict>
 					</dict>
 				</dict>
-				<key>model</key>
-				<string>iMac19,1</string>
 			</dict>
 		</dict>
+
 		<key>OSBundleRequired</key>
 		<string>Root</string>
 	</dict>
