@@ -28,6 +28,24 @@ binary files in this repo.
 * OpenCore 0.8.2
 * macOS Monterey 12.5.1 (21G83)
 
+## Kexts
+Kext | Source
+---- | ------
+AppleALC.kext | [acidanthera/AppleALC](https://github.com/acidanthera/AppleALC)
+BlueToolFixup.kext | [acidanthera/BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM)
+CPUFriend.kext | [acidanthera/CPUFriend](https://github.com/acidanthera/CPUFriend)
+FeatureUnlock.kext | [acidanthera/FeatureUnlock](https://github.com/acidanthera/FeatureUnlock)
+IntelMausi.kext | [acidanthera/IntelMausi](https://github.com/acidanthera/IntelMausi)
+Lilu.kext | [acidanthera/Lilu](https://github.com/acidanthera/Lilu)
+macUSPCIO.kext | [ShadyNawara/macUSPCIO](https://github.com/ShadyNawara/macUSPCIO)
+NVMeFix.kext | [acidanthera/NVMeFix](https://github.com/acidanthera/NVMeFix)
+SMCProcessor.kext | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC)
+SMCSuperIO.kext | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC)
+USBMap.kext | N/A
+USBWakeFixup.kext | [osy/USBWakeFixup](https://github.com/osy/USBWakeFixup)
+VirtualSMC.kext | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC)
+WhateverGreen.kext | [acidanthera/WhateverGreen](https://github.com/acidanthera/WhateverGreen)
+
 ## Working
 
 * Everything
