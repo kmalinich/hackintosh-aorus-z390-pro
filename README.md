@@ -26,7 +26,7 @@ binary files in this repo.
 ## Software
 
 * OpenCore 0.8.2
-* macOS Monterey 12.4 (21F79)
+* macOS Monterey 12.5.1 (21G83)
 
 ## Working
 
