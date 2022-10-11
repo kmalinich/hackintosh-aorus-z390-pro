@@ -175,7 +175,7 @@
 						<key>HS08</key>
 						<dict>
 							<key>Comment</key>
-							<string>Rear bottom right USB-A 3.0 (HS)</string>
+							<string>Rear lower right USB-A 3.0 (HS)</string>
 							<key>UsbConnector</key>
 							<integer>3</integer>
 							<key>port</key>
@@ -184,7 +184,7 @@
 						<key>SS08</key>
 						<dict>
 							<key>Comment</key>
-							<string>Rear bottom right USB-A 3.0 (SS)</string>
+							<string>Rear lower right USB-A 3.0 (SS)</string>
 							<key>UsbConnector</key>
 							<integer>3</integer>
 							<key>port</key>
@@ -232,7 +232,7 @@
 						<key>HS11</key>
 						<dict>
 							<key>Comment</key>
-							<string>Motherboard left USB 2.0 header (HS)</string>
+							<string>Motherboard USB 2.0 header (HS)</string>
 							<key>UsbConnector</key>
 							<integer>0</integer>
 							<key>port</key>
@@ -242,11 +242,11 @@
 						<key>HS12</key>
 						<dict>
 							<key>Comment</key>
-							<string>IT8297 RGB controller (HS)</string>
+							<string>Motherboard IT8297 RGB controller (HS)</string>
 							<key>UsbConnector</key>
 							<integer>0</integer>
 							<key>port</key>
-							<data>CwAAAA==</data>
+							<data>DAAAAA==</data>
 						</dict>
 
 						<key>HS13</key>

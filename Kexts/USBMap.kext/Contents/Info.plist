@@ -61,23 +61,31 @@
 						<key>SS01</key>
 						<dict>
 							<key>Comment</key>
-							<string>Front USB-C 3.2 (SS)</string>
+							<string>Front USB-C 3.2 position 1 (SS)</string>
 							<key>UsbConnector</key>
 							<integer>10</integer>
 							<key>port</key>
 							<data>EQAAAA==</data>
 						</dict>
-
 						<key>SS02</key>
 						<dict>
 							<key>Comment</key>
-							<string>Front USB-C 3.2 (SS)</string>
+							<string>Front USB-C 3.2 position 2 (SS)</string>
 							<key>UsbConnector</key>
 							<integer>10</integer>
 							<key>port</key>
 							<data>EgAAAA==</data>
 						</dict>
 
+						<key>HS03</key>
+						<dict>
+							<key>Comment</key>
+							<string>Rear upper left USB-A 3.1 (HS)</string>
+							<key>UsbConnector</key>
+							<integer>3</integer>
+							<key>port</key>
+							<data>AwAAAA==</data>
+						</dict>
 						<key>SS03</key>
 						<dict>
 							<key>Comment</key>
@@ -88,52 +96,42 @@
 							<data>EwAAAA==</data>
 						</dict>
 
-						<key>SS04</key>
+						<key>HS05</key>
 						<dict>
 							<key>Comment</key>
-							<string>Rear upper right USB-A 3.0 (SS)</string>
+							<string>Rear middle right USB 3.1 (HS)</string>
 							<key>UsbConnector</key>
 							<integer>3</integer>
 							<key>port</key>
-							<data>FAAAAA==</data>
+							<data>BQAAAA==</data>
+						</dict>
+						<key>SS05</key>
+						<dict>
+							<key>Comment</key>
+							<string>Rear middle right USB 3.1 (SS)</string>
+							<key>UsbConnector</key>
+							<integer>3</integer>
+							<key>port</key>
+							<data>FQAAAA==</data>
 						</dict>
 
-						<key>HS07</key>
+						<key>HS06</key>
 						<dict>
 							<key>Comment</key>
-							<string>Rear lower left USB-A 3.0 (HS)</string>
+							<string>Rear USB-C 3.2 (HS)</string>
 							<key>UsbConnector</key>
-							<integer>3</integer>
+							<integer>9</integer>
 							<key>port</key>
-							<data>BwAAAA==</data>
+							<data>BgAAAA==</data>
 						</dict>
-						<key>SS07</key>
+						<key>SS06</key>
 						<dict>
 							<key>Comment</key>
-							<string>Rear lower left USB-A 3.0 (SS)</string>
+							<string>Rear USB-C 3.2 (SS)</string>
 							<key>UsbConnector</key>
-							<integer>3</integer>
+							<integer>9</integer>
 							<key>port</key>
-							<data>FwAAAA==</data>
-						</dict>
-
-						<key>HS08</key>
-						<dict>
-							<key>Comment</key>
-							<string>Rear lower right USB-A 3.0 (HS)</string>
-							<key>UsbConnector</key>
-							<integer>3</integer>
-							<key>port</key>
-							<data>CAAAAA==</data>
-						</dict>
-						<key>SS08</key>
-						<dict>
-							<key>Comment</key>
-							<string>Rear lower right USB-A 3.0 (SS)</string>
-							<key>UsbConnector</key>
-							<integer>3</integer>
-							<key>port</key>
-							<data>GAAAAA==</data>
+							<data>FgAAAA==</data>
 						</dict>
 
 						<key>HS09</key>
@@ -177,7 +175,7 @@
 						<key>HS11</key>
 						<dict>
 							<key>Comment</key>
-							<string>Motherboard left USB 2.0 header (HS)</string>
+							<string>Motherboard USB 2.0 header (HS)</string>
 							<key>UsbConnector</key>
 							<integer>0</integer>
 							<key>port</key>
