@@ -25,10 +25,11 @@ binary files in this repo.
 
 ## Software
 
-* OpenCore 0.8.2
+* OpenCore 0.8.7
 * macOS Monterey 12.5.1 (21G83)
 
 ## Kexts
+
 Kext | Source
 ---- | ------
 AppleALC.kext | [acidanthera/AppleALC](https://github.com/acidanthera/AppleALC)
