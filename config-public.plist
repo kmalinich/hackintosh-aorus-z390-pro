@@ -56,7 +56,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>USB wake virtual device</string>
+					<string>USB wakeup virtual device</string>
 					<key>Enabled</key>
 					<true/>
 					<key>Path</key>
