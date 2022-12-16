@@ -26,7 +26,7 @@ binary files in this repo.
 ## Software
 
 * OpenCore 0.8.7
-* macOS Monterey 12.5.1 (21G83)
+* macOS Monterey 12.6.2 (21G320)
 
 ## Kexts
 
