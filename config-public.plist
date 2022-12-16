@@ -341,7 +341,7 @@
 					<key>BundlePath</key>
 					<string>Lilu.kext</string>
 					<key>Comment</key>
-					<string>V1.6.1 | Patch engine</string>
+					<string>An open source kernel extension bringing a platform for arbitrary kext, library, and program patching throughout the system</string>
 					<key>Enabled</key>
 					<true/>
 					<key>ExecutablePath</key>
@@ -359,7 +359,7 @@
 					<key>BundlePath</key>
 					<string>VirtualSMC.kext</string>
 					<key>Comment</key>
-					<string>V1.3.0</string>
+					<string>Advanced Apple SMC emulator in the kernel</string>
 					<key>Enabled</key>
 					<true/>
 					<key>ExecutablePath</key>
@@ -377,7 +377,7 @@
 					<key>BundlePath</key>
 					<string>NVMeFix.kext</string>
 					<key>Comment</key>
-					<string>V1.1.0 | NVMe drive fixes</string>
+					<string>Lilu plugin for patching IONVMeFamily.kext to improve compatibility with non-Apple SSDs</string>
 					<key>Enabled</key>
 					<true/>
 					<key>ExecutablePath</key>
@@ -395,7 +395,7 @@
 					<key>BundlePath</key>
 					<string>IntelMausi.kext</string>
 					<key>Comment</key>
-					<string>V1.0.7 | Intel LAN</string>
+					<string>Intel onboard LAN driver</string>
 					<key>Enabled</key>
 					<true/>
 					<key>ExecutablePath</key>
@@ -413,7 +413,7 @@
 					<key>BundlePath</key>
 					<string>USBMap.kext</string>
 					<key>Comment</key>
-					<string>V1.0.0 | XHC ports configuration</string>
+					<string>XHC ports configuration</string>
 					<key>Enabled</key>
 					<true/>
 					<key>ExecutablePath</key>
@@ -431,9 +431,9 @@
 					<key>BundlePath</key>
 					<string>CPUFriend.kext</string>
 					<key>Comment</key>
-					<string>V1.2.6</string>
+					<string>Lilu plugin for dynamic power management data injection</string>
 					<key>Enabled</key>
-					<true/>
+					<false/>
 					<key>ExecutablePath</key>
 					<string>Contents/MacOS/CPUFriend</string>
 					<key>MaxKernel</key>
@@ -449,9 +449,9 @@
 					<key>BundlePath</key>
 					<string>CPUFriendDataProvider-v5.kext</string>
 					<key>Comment</key>
-					<string>V1.0.0</string>
+					<string>Data for CPUFriend.kext</string>
 					<key>Enabled</key>
-					<true/>
+					<false/>
 					<key>ExecutablePath</key>
 					<string></string>
 					<key>MaxKernel</key>
@@ -467,7 +467,7 @@
 					<key>BundlePath</key>
 					<string>FeatureUnlock.kext</string>
 					<key>Comment</key>
-					<string>V1.0.9 | Add Sidecar, NightShift, AirPlay to Mac and Universal Control support to unsupported models</string>
+					<string>Lilu plugin for enabling Sidecar, NightShift, AirPlay to Mac and Universal Control support on unsupported Macs</string>
 					<key>Enabled</key>
 					<true/>
 					<key>ExecutablePath</key>
@@ -485,7 +485,7 @@
 					<key>BundlePath</key>
 					<string>BlueToolFixup.kext</string>
 					<key>Comment</key>
-					<string>V2.6.1 | Non-native Bluetooth device fixes</string>
+					<string>Non-native (non-Apple) Bluetooth device fixes</string>
 					<key>Enabled</key>
 					<true/>
 					<key>ExecutablePath</key>
@@ -503,7 +503,7 @@
 					<key>BundlePath</key>
 					<string>USBWakeFixup.kext</string>
 					<key>Comment</key>
-					<string>V1.0.0 | USB wake virtual device</string>
+					<string>USB wakeup virtual device</string>
 					<key>Enabled</key>
 					<true/>
 					<key>ExecutablePath</key>
@@ -521,7 +521,7 @@
 					<key>BundlePath</key>
 					<string>SMCSuperIO.kext</string>
 					<key>Comment</key>
-					<string>V1.3.0</string>
+					<string>SuperIO sensor support for VirtualSMC.kext</string>
 					<key>Enabled</key>
 					<true/>
 					<key>ExecutablePath</key>
@@ -539,7 +539,7 @@
 					<key>BundlePath</key>
 					<string>SMCProcessor.kext</string>
 					<key>Comment</key>
-					<string>V1.3.0</string>
+					<string>CPU sensor support for VirtualSMC.kext</string>
 					<key>Enabled</key>
 					<true/>
 					<key>ExecutablePath</key>
@@ -557,7 +557,7 @@
 					<key>BundlePath</key>
 					<string>AppleALC.kext</string>
 					<key>Comment</key>
-					<string>V1.7.3</string>
+					<string>An open source kernel extension enabling native macOS HD audio for not officially supported codecs without any filesystem modifications</string>
 					<key>Enabled</key>
 					<true/>
 					<key>ExecutablePath</key>
@@ -575,7 +575,7 @@
 					<key>BundlePath</key>
 					<string>WhateverGreen.kext</string>
 					<key>Comment</key>
-					<string>V1.6.0</string>
+					<string>Lilu plugin providing patches to select GPUs</string>
 					<key>Enabled</key>
 					<true/>
 					<key>ExecutablePath</key>
@@ -593,7 +593,7 @@
 					<key>BundlePath</key>
 					<string>macUSPCIO.kext</string>
 					<key>Comment</key>
-					<string>V1.0</string>
+					<string>Allows communication between a userspace application and the IO space of a PCI evice</string>
 					<key>Enabled</key>
 					<true/>
 					<key>ExecutablePath</key>
