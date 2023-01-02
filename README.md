@@ -5,10 +5,10 @@ OpenCore EFI directory for my daily-driven hackintosh.
 ## Note
 
 If you happen to have this exact same hardware, and choose to use this,
-make sure you fill in `MLB`, `SystemSerialNumber`, and `SystemUUID` in
-`config-public.plist`, and rename it to `config.plist`. Also, the kexts
-under Kexts/ in the repo contain only the Info.plist, and that's for
-tracking updates to them via version control. You'd need to actually
+make sure you fill in `MLB`, `SystemSerialNumber`, `SystemUUID`, and `ROM`
+in `config-public.plist`, and rename it to `config.plist`. Also, the
+kexts under Kexts/ in the repo contain only the Info.plist, and that's
+for tracking updates to them via version control. You'd need to actually
 copy in the full kexts from their original sources, there are no kext
 binary files in this repo.
 
@@ -21,19 +21,18 @@ binary files in this repo.
 * 1TB Western Digital SN850 (M.2)
 * 1TB Samsung 860 EVO 1TB (SATA) for Time Machine backup
 * Corsair H150i AIO
-* USB Bluetooth 4.0 dongle
+* Fenvi T919 WiFi/Bluetooth
 
 ## Software
 
 * OpenCore 0.8.7
-* macOS Monterey 12.6.2 (21G320)
+* macOS Ventura 13.1 (22C65)
 
 ## Kexts
 
 Kext | Source
 ---- | ------
 AppleALC.kext | [acidanthera/AppleALC](https://github.com/acidanthera/AppleALC)
-BlueToolFixup.kext | [acidanthera/BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM)
 CPUFriend.kext | [acidanthera/CPUFriend](https://github.com/acidanthera/CPUFriend)
 FeatureUnlock.kext | [acidanthera/FeatureUnlock](https://github.com/acidanthera/FeatureUnlock)
 IntelMausi.kext | [acidanthera/IntelMausi](https://github.com/acidanthera/IntelMausi)

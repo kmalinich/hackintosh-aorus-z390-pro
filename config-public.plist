@@ -483,24 +483,6 @@
 					<key>Arch</key>
 					<string>x86_64</string>
 					<key>BundlePath</key>
-					<string>BlueToolFixup.kext</string>
-					<key>Comment</key>
-					<string>Non-native (non-Apple) Bluetooth device fixes</string>
-					<key>Enabled</key>
-					<true/>
-					<key>ExecutablePath</key>
-					<string>Contents/MacOS/BlueToolFixup</string>
-					<key>MaxKernel</key>
-					<string></string>
-					<key>MinKernel</key>
-					<string></string>
-					<key>PlistPath</key>
-					<string>Contents/Info.plist</string>
-				</dict>
-				<dict>
-					<key>Arch</key>
-					<string>x86_64</string>
-					<key>BundlePath</key>
 					<string>USBWakeFixup.kext</string>
 					<key>Comment</key>
 					<string>USB wakeup virtual device</string>
@@ -965,7 +947,7 @@
 				<key>ProcessorType</key>
 				<integer>0</integer>
 				<key>ROM</key>
-				<data>tC6ZOCF+</data>
+				<data></data>
 				<key>SpoofVendor</key>
 				<true/>
 				<key>SystemMemoryStatus</key>
@@ -1039,7 +1021,7 @@
 				<key>AudioCodec</key>
 				<integer>0</integer>
 				<key>AudioDevice</key>
-				<string>PciRoot(0x0)/Pci(0x1F,0x3)</string>
+				<string>PciRoot(0x0)/Pci(0x1f,0x3)</string>
 				<key>AudioOutMask</key>
 				<integer>1</integer>
 				<key>AudioSupport</key>

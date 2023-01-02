@@ -177,7 +177,7 @@
 							<key>Comment</key>
 							<string>Motherboard USB 2.0 header (HS)</string>
 							<key>UsbConnector</key>
-							<integer>0</integer>
+							<integer>255</integer>
 							<key>port</key>
 							<data>CwAAAA==</data>
 						</dict>
