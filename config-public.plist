@@ -258,62 +258,48 @@
 		<dict>
 			<key>Add</key>
 			<dict>
-				<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
+				<key>PciRoot(0x0)/Pci(0x0,0x0)</key>
 				<dict>
 					<key>AAPL,slot-name</key>
-					<string>Built In</string>
+					<string>Internal@0,0,0</string>
 					<key>device_type</key>
-					<string>USB controller</string>
+					<string>Host bridge</string>
 					<key>model</key>
-					<string>Intel Z390 USB 3.1 xHCI Host Controller</string>
+					<string>Intel Z390 Host Bridge/DRAM Registers</string>
 				</dict>
-				<key>PciRoot(0x0)/Pci(0x17,0x0)</key>
+
+				<key>PciRoot(0x0)/Pci(0x1,0x0)</key>
 				<dict>
 					<key>AAPL,slot-name</key>
-					<string>Built In</string>
+					<string>Internal@0,1,0</string>
 					<key>device_type</key>
-					<string>SATA controller</string>
+					<string>PCI bridge</string>
 					<key>model</key>
-					<string>Intel Z390 SATA Controller</string>
+					<string>Intel Z390 PCIe Controller (x16)</string>
 				</dict>
-				<key>PciRoot(0x0)/Pci(0x1d,0x0)/Pci(0x0,0x0)</key>
+
+				<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)</key>
 				<dict>
 					<key>AAPL,slot-name</key>
-					<string>PCIe M.2 Slot 1</string>
+					<string>Internal@0,1,0/0,0</string>
 					<key>device_type</key>
-					<string>Non-Volatile memory controller</string>
+					<string>VGA compatible controller</string>
+					<key>hda-gfx</key>
+					<string>onboard-2</string>
 					<key>model</key>
-					<string>Western Digital SN850 NVMe SSD</string>
+					<string>Radeon RX 580</string>
 				</dict>
-				<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
+
+				<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x1)</key>
 				<dict>
 					<key>AAPL,slot-name</key>
-					<string>Built In</string>
+					<string>Internal@0,1,0/0,1</string>
 					<key>device_type</key>
 					<string>Audio device</string>
-					<key>layout-id</key>
-					<data>HAAAAA==</data>
 					<key>model</key>
-					<string>Apple High Definition Audio Controller</string>
+					<string>Radeon RX 580 HDMI Audio</string>
 				</dict>
-				<key>PciRoot(0x0)/Pci(0x1f,0x5)</key>
-				<dict>
-					<key>AAPL,slot-name</key>
-					<string>Built In</string>
-					<key>device_type</key>
-					<string>Serial bus controller</string>
-					<key>model</key>
-					<string>Intel Z390 SPI Controller</string>
-				</dict>
-				<key>PciRoot(0x0)/Pci(0x1f,0x6)</key>
-				<dict>
-					<key>AAPL,slot-name</key>
-					<string>Built In</string>
-					<key>device_type</key>
-					<string>Ethernet controller</string>
-					<key>model</key>
-					<string>Intel 1219V7 Gigabit Ethernet</string>
-				</dict>
+
 				<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 				<dict>
 					<key>AAPL,ig-platform-id</key>
@@ -325,7 +311,169 @@
 					<key>igfxfw</key>
 					<data>AgAAAA==</data>
 					<key>model</key>
-					<string>Intel UHD Graphics 630 (Desktop 9 Series)</string>
+					<string>Intel UHD Graphics 630</string>
+				</dict>
+
+				<key>PciRoot(0x0)/Pci(0x12,0x0)</key>
+				<dict>
+					<key>AAPL,slot-name</key>
+					<string>Internal@0,18,0</string>
+					<key>device_type</key>
+					<string>Signal processing controller</string>
+					<key>model</key>
+					<string>Intel Z390 Thermal Controller</string>
+				</dict>
+
+				<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
+				<dict>
+					<key>AAPL,slot-name</key>
+					<string>Built In</string>
+					<key>device_type</key>
+					<string>USB controller</string>
+					<key>model</key>
+					<string>Intel Z390 USB 3.1 xHCI Host Controller</string>
+				</dict>
+
+				<key>PciRoot(0x0)/Pci(0x14,0x2)</key>
+				<dict>
+					<key>AAPL,slot-name</key>
+					<string>Internal@0,20,2</string>
+					<key>device_type</key>
+					<string>RAM memory</string>
+					<key>model</key>
+					<string>Intel Z390 Shared SRAM</string>
+				</dict>
+
+				<key>PciRoot(0x0)/Pci(0x16,0x0)</key>
+				<dict>
+					<key>AAPL,slot-name</key>
+					<string>Internal@0,22,0</string>
+					<key>device_type</key>
+					<string>Communication controller</string>
+					<key>model</key>
+					<string>Intel Z390 HECI Controller</string>
+				</dict>
+
+				<key>PciRoot(0x0)/Pci(0x17,0x0)</key>
+				<dict>
+					<key>AAPL,slot-name</key>
+					<string>Built In</string>
+					<key>device_type</key>
+					<string>SATA controller</string>
+					<key>model</key>
+					<string>Intel Z390 SATA AHCI Controller</string>
+				</dict>
+
+				<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
+				<dict>
+					<key>AAPL,slot-name</key>
+					<string>Internal@0,27,0</string>
+					<key>device_type</key>
+					<string>PCI bridge</string>
+					<key>model</key>
+					<string>Intel Z390 PCI Express Root Port #17</string>
+				</dict>
+
+				<key>PciRoot(0x0)/Pci(0x1b,0x4)</key>
+				<dict>
+					<key>AAPL,slot-name</key>
+					<string>Internal@0,27,4</string>
+					<key>device_type</key>
+					<string>PCI bridge</string>
+					<key>model</key>
+					<string>Intel Z390 PCI Express Root Port #21</string>
+				</dict>
+
+				<key>PciRoot(0x0)/Pci(0x1b,0x4)/Pci(0x0,0x0)</key>
+				<dict>
+					<key>AAPL,slot-name</key>
+					<string>Internal@0,27,4/0,0</string>
+					<key>device_type</key>
+					<string>Network controller</string>
+					<key>model</key>
+					<string>BCM4360 802.11ac Wireless Network Adapter</string>
+				</dict>
+
+				<key>PciRoot(0x0)/Pci(0x1c,0x0)</key>
+				<dict>
+					<key>AAPL,slot-name</key>
+					<string>Internal@0,28,0</string>
+					<key>device_type</key>
+					<string>PCI bridge</string>
+					<key>model</key>
+					<string>Intel Z390 PCI Express Root Port #1</string>
+				</dict>
+
+				<key>PciRoot(0x0)/Pci(0x1d,0x0)</key>
+				<dict>
+					<key>AAPL,slot-name</key>
+					<string>Internal@0,29,0</string>
+					<key>device_type</key>
+					<string>PCI bridge</string>
+					<key>model</key>
+					<string>Intel Z390 PCI Express Root Port #9</string>
+				</dict>
+
+				<key>PciRoot(0x0)/Pci(0x1d,0x0)/Pci(0x0,0x0)</key>
+				<dict>
+					<key>AAPL,slot-name</key>
+					<string>PCIe M.2 Slot 1</string>
+					<key>device_type</key>
+					<string>Non-Volatile memory controller</string>
+					<key>model</key>
+					<string>Western Digital SN850 NVMe SSD</string>
+				</dict>
+
+				<key>PciRoot(0x0)/Pci(0x1f,0x0)</key>
+				<dict>
+					<key>AAPL,slot-name</key>
+					<string>Internal@0,31,0</string>
+					<key>device_type</key>
+					<string>ISA bridge</string>
+					<key>model</key>
+					<string>Intel Z390 LPC/eSPI Controller</string>
+				</dict>
+
+				<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
+				<dict>
+					<key>AAPL,slot-name</key>
+					<string>Built In</string>
+					<key>device_type</key>
+					<string>Audio device</string>
+					<key>layout-id</key>
+					<data>HAAAAA==</data>
+					<key>model</key>
+					<string>Apple High Definition Audio Controller</string>
+				</dict>
+
+				<key>PciRoot(0x0)/Pci(0x1f,0x4)</key>
+				<dict>
+					<key>AAPL,slot-name</key>
+					<string>Internal@0,31,4</string>
+					<key>device_type</key>
+					<string>SMBus</string>
+					<key>model</key>
+					<string>Intel Z390 SMBus Controller</string>
+				</dict>
+
+				<key>PciRoot(0x0)/Pci(0x1f,0x5)</key>
+				<dict>
+					<key>AAPL,slot-name</key>
+					<string>Built In</string>
+					<key>device_type</key>
+					<string>Serial bus controller</string>
+					<key>model</key>
+					<string>Intel Z390 SPI Controller</string>
+				</dict>
+
+				<key>PciRoot(0x0)/Pci(0x1f,0x6)</key>
+				<dict>
+					<key>AAPL,slot-name</key>
+					<string>Built In</string>
+					<key>device_type</key>
+					<string>Ethernet controller</string>
+					<key>model</key>
+					<string>Intel I219-V Gigabit Ethernet</string>
 				</dict>
 			</dict>
 			<key>Delete</key>
