@@ -25,8 +25,8 @@ binary files in this repo.
 
 ## Software
 
-* OpenCore 0.8.8
-* macOS Ventura 13.1 (22C65)
+* OpenCore 0.9.3
+* macOS Ventura 13.4 (22F66)
 
 ## Kexts
 
@@ -34,6 +34,8 @@ Kext | Source
 ---- | ------
 AppleALC.kext | [acidanthera/AppleALC](https://github.com/acidanthera/AppleALC)
 CPUFriend.kext | [acidanthera/CPUFriend](https://github.com/acidanthera/CPUFriend)
+Display-10ac-d0c1.kext | N/A
+Display-5e3-3477.kext | N/A
 FeatureUnlock.kext | [acidanthera/FeatureUnlock](https://github.com/acidanthera/FeatureUnlock)
 IntelMausi.kext | [acidanthera/IntelMausi](https://github.com/acidanthera/IntelMausi)
 Lilu.kext | [acidanthera/Lilu](https://github.com/acidanthera/Lilu)

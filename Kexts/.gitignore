@@ -3,3 +3,4 @@
 /*.kext/Contents/MacOS
 /*.kext/Contents/Resources
 /*.kext/Contents/_CodeSignature
+/Display-*.kext
