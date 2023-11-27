@@ -25,7 +25,7 @@ binary files in this repo.
 
 ## Software
 
-* OpenCore 0.9.3
+* [OpenCore 0.9.6](https://github.com/acidanthera/OpenCorePkg)
 * macOS Ventura 13.4 (22F66)
 
 ## Kexts
