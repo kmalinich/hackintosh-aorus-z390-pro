@@ -25,8 +25,8 @@ binary files in this repo.
 
 ## Software
 
-* [OpenCore 0.9.6](https://github.com/acidanthera/OpenCorePkg)
-* macOS Ventura 13.4 (22F66)
+* [OpenCore 1.0.2](https://github.com/acidanthera/OpenCorePkg)
+* macOS 14.1.1 (23B81)
 
 ## Kexts
 
@@ -37,8 +37,10 @@ CPUFriend.kext | [acidanthera/CPUFriend](https://github.com/acidanthera/CPUFrien
 Display-10ac-d0c1.kext | N/A
 Display-5e3-3477.kext | N/A
 FeatureUnlock.kext | [acidanthera/FeatureUnlock](https://github.com/acidanthera/FeatureUnlock)
+HibernationFixup.kext | [acidanthera/HibernationFixup](https://github.com/acidanthera/HibernationFixup)
 IntelMausi.kext | [acidanthera/IntelMausi](https://github.com/acidanthera/IntelMausi)
 Lilu.kext | [acidanthera/Lilu](https://github.com/acidanthera/Lilu)
+macUSPCIO.kext | [ShadyNawara/macUSPCIO](https://github.com/ShadyNawara/macUSPCIO)
 NVMeFix.kext | [acidanthera/NVMeFix](https://github.com/acidanthera/NVMeFix)
 SMCProcessor.kext | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC)
 SMCSuperIO.kext | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC)
@@ -46,7 +48,6 @@ USBMap.kext | N/A
 USBWakeFixup.kext | [osy/USBWakeFixup](https://github.com/osy/USBWakeFixup)
 VirtualSMC.kext | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC)
 WhateverGreen.kext | [acidanthera/WhateverGreen](https://github.com/acidanthera/WhateverGreen)
-macUSPCIO.kext | [ShadyNawara/macUSPCIO](https://github.com/ShadyNawara/macUSPCIO)
 
 ## Working
 
