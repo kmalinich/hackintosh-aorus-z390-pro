@@ -25,8 +25,8 @@ binary files in this repo.
 
 ## Software
 
-* [OpenCore 1.0.2](https://github.com/acidanthera/OpenCorePkg)
-* macOS 14.1.1 (23B81)
+* [OpenCore 1.0.3](https://github.com/acidanthera/OpenCorePkg)
+* macOS 15.3 (24D60)
 
 ## Kexts
 
